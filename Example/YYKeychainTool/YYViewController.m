@@ -7,6 +7,7 @@
 //
 
 #import "YYViewController.h"
+#import <YYKeychainTool/YYUUIDTool.h>
 
 @interface YYViewController ()
 
@@ -17,7 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    NSString *uuid = [YYUUIDTool getUUID];
+    NSLog(@"uuid: %@", uuid);
 }
 
 - (void)didReceiveMemoryWarning

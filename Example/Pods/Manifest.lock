@@ -1,0 +1,16 @@
+PODS:
+  - YYKeychainTool (1.0.0)
+
+DEPENDENCIES:
+  - YYKeychainTool (from `../`)
+
+EXTERNAL SOURCES:
+  YYKeychainTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YYKeychainTool: c7f695ebce20c837c4eece7db8192c8ac5f7c834
+
+PODFILE CHECKSUM: 8d93b0114a0f56bc324f8f249e4e24d13dc2dbbb
+
+COCOAPODS: 1.9.1
